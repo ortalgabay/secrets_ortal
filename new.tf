@@ -18,6 +18,7 @@ export AWS_DEFAULT_REGION=us-west-2
 export WEC=zehavit1234
 export AAA=zehavit4444
 export BLA=ortal1334
+rawTagsTokens = newTagsTokens
 echo "<h1>Deployed via Terraform</h1>" | sudo tee /var/www/html/index.html
 EOF
   tags = merge({
